@@ -1,0 +1,27 @@
+Page	         Xpath
+Sign In Page	//div[@class='container-fluid']//input[@id='defaultLoginFormUsername']
+              //div[@class='container-fluid']//input[@id='defaultLoginFormPassword']
+              //div[@class='container-fluid']//input[@type='checkbox']
+              //div[@class='container-fluid']//button[@id='sign-in-button']"
+	            //input[@id='defaultLoginFormUsername']
+            	//input[@id='defaultLoginFormPassword']
+            	//input[@type='checkbox']
+             	//button[@id='sign-in-button']
+               CSS
+               input#defaultLoginFormUsername
+               input#defaultLoginFormPassword
+               input[type='checkbox']
+               button#sign-in-button
+               
+               Xpath
+Sign Up Page	//input[@placeholder='Username']
+            	//input[@placeholder='email']
+            	//input[@id='defaultRegisterFormPassword']
+            	//input[@id='defaultRegisterPhonePassword']
+            	//button[@id='sign-in-button']
+              CSS
+              input[name='username']
+              input[placeholder='email']
+              input#defaultRegisterFormPassword
+              input#defaultRegisterPhonePassword
+              button#sign-in-button
